@@ -36,7 +36,7 @@ This driver lacks:
 
 You will need a gcc compiler, and the xserver-xorg development libraries and headers installed on your system.  On a Debian based system, these packages can be installed using the following command:  
 
-    sudo apt-get install autoconf automake gcc libtool libxrandr-dev make module-init-tools m4 pkg-config xserver-xorg-dev xutils-dev x11proto-fonts-dev x11proto-randr-dev x11proto-video-dev
+    sudo apt-get install autoconf automake gcc libtool libxrandr-dev make module-init-tools m4 pkg-config xserver-xorg-dev xserver-xorg-video-fbdev xutils-dev x11proto-fonts-dev x11proto-randr-dev x11proto-video-dev
 
 - *This list doesn't contain dependencies of dependents, package managers should handle this.*  
 - *Some dependencies may have been missed.  If a direct dependency is found, append it the list.*
